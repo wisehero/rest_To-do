@@ -19,7 +19,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         // http 시큐리티 빌더
-        http.cors() // 기본 cors tjfwjd
+        http.cors() // 기본 cors 설정
                 .and()
                 .csrf().disable()
                 .httpBasic().disable() // BASIC 인증 비활성화
