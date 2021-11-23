@@ -26,3 +26,5 @@ hs_err_pid*
 *.bin
 *.bin
 .gradle/buildOutputCleanup/buildOutputCleanup.lock
+*.bin
+.gradle/7.2/executionHistory/executionHistory.bin
