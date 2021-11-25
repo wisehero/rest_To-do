@@ -21,7 +21,7 @@ public class UserService {
         final String email = userEntity.getEmail();
         if (userRepository.existsByEmail(email)) {
             log.warn("Email already exists {}", email);
-            throw new RuntimeException("Email already exsists");
+            throw new RuntimeException("Email already exists");
         }
 
         return userRepository.save(userEntity);
