@@ -28,3 +28,8 @@ hs_err_pid*
 .gradle/buildOutputCleanup/buildOutputCleanup.lock
 *.bin
 .gradle/7.2/executionHistory/executionHistory.bin
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
